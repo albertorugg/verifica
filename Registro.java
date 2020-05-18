@@ -32,16 +32,24 @@ public class Registro
         
     public void stampa()
     {
-        
+     for(Object b : registro)
+        System.out.println(b.toString());
     }
     
     public void stampa(String cat)
     {
-       
+     if(cat.equals(""))
+        System.out.println(((Veicolo)b).toString());
+     else
+        for(Object b : registro)
+           if(((Veicolo)b).getCat().equalsCcat))
+           System.out.println(b.toString());  
     }
     
-    public void stampaOrdinata()
+    public void stampaOrdinata(){
+    public int compare(Veicolo v1, Veicolo v2)
     {
-    
+     return v1.getMa().compareTo(v2.getMa());
     }
+  }
 }
